@@ -12,8 +12,8 @@ class QuizInterface:
     self.window.config(bg=THEME_COLOR)
 
     # images
-    true_image = PhotoImage(file="quizzler_app_start/images/true.png")
-    false_image = PhotoImage(file="quizzler_app_start/images/false.png")
+    true_image = PhotoImage(file="images/true.png")
+    false_image = PhotoImage(file="images/false.png")
     #  Buttons
     self.true_button = Button(image=true_image, highlightthickness=0, bg=THEME_COLOR,
     relief="flat", command =self.true_pressed)
